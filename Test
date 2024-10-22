@@ -1,0 +1,218 @@
+<!doctype html>
+
+<html>
+
+<style>
+ 
+table, th, td {
+    border:1px solid green;
+    border-collapse: collapse;
+}
+th, td {
+    padding-left: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #d4ead9;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {text-align: center;}
+
+</style>
+
+<body style=background-color:#FCFFFC>
+
+<head>
+
+<title>CenterParcs de Kempervennen Adventure Footgolf</title>
+
+</head>
+<br>
+<img src="https://www.designtagebuch.de/wp-content/uploads/mediathek/2023/01/center-parcs-logo-bildmarke.jpg" alt="Logo CenterParcs" width="240" height="192">
+
+<h1 style="color:SeaGreen;">
+Scorecard Adventure Footgolf
+</h1>
+
+<p style="color:Orange;font-size:1.8vw;text-align: center;line-height:2">
+
+Rules of play
+<li style="color:SeaGreen;font-size:1vw;line-height:1.7">    Everyone starts from the soccerball with the hole number.</li>
+<li style="color:SeaGreen;font-size:1vw;line-height:1.7">    On the holes where this is applicable, the ball needs to be player through the gate and/or obstacle, before being kicked in the hole.</li>
+<li style="color:SeaGreen;font-size:1vw;line-height:1.7">    Count the amount of attempts to get the ball in the hole.</li>
+<li style="color:SeaGreen;font-size:1vw;line-height:1.7">    If the ball goes outside the fence or in the bushes/flowers, you pick up the ball and place it back on the course. You also get 1 penalty point.</li>
+<br>
+
+</p>
+
+<table style="width:69%" align="center">
+ <tr style="height:45px">
+  <th style="width:30%">  </th>
+  <th> <input type="text"
+                       placeholder="Name Player"> </th>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 1 </b></td>
+  <td>  
+        <input onblur="findTotal()" type="text" name="qty" id="qty1"/
+                       placeholder="Score">      
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 2 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty2"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 3 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty3"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 4 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty4"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 5 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty5"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 6 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty6"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 7 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty7"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 8 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty8"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 9 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty9"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 10 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty10"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 11 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty11"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 12 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty12"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 13 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty13"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 14 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty14"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 15 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty15"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Hole 16 </b></td>
+  <td>
+        <input onblur="findTotal()" type="text" name="qty" id="qty16"/
+                       placeholder="Score">
+   </td>
+ </tr>
+
+ <tr style="height:40px">
+  <td><b> Total </b></td>
+  <td><b> <input type="text" name="total" id="total"/ placeholder="Total"> </b></td>
+ </tr>
+
+</table>
+
+<script>
+
+function findTotal() {
+  var arr = document.getElementsByName('qty');
+  var tot = 0;
+
+  for (var i = 0; i < arr.length; i++) {
+    if (parseInt(arr[i].value))
+      tot += parseInt(arr[i].value);
+  }
+
+  document.getElementById('total').value = tot;
+}
+
+</script>
+
+</body>
+
+</html>
